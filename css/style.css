@@ -19,6 +19,14 @@ body {
 .title2 {
 	font-size: 28px;
 }
+.items {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: #EFAAEF;
+}
 .item {
 	font-size: 28px;
+	text-align: unset;
 }
