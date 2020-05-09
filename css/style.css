@@ -5,6 +5,13 @@ body {
 	background-color: #EFBBEF;
 	font-family: cursive;
 }
+a {
+	color: unset;
+	text-decoration: none;
+}
+a:hover {
+	color: #808;
+}
 .title, .title2, .item {
 	margin: 10px;
 	padding: 10px;
