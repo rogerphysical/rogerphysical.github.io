@@ -6,7 +6,6 @@ body {
 	background-color: #202;
 	color: #FDF;
 	font-family: cursive;
-
 }
 a {
 	color: unset;
@@ -25,8 +24,8 @@ a {
 	font-size: 28px;
 }
 .items {
-	width: 400px;
-	height: calc(100vh - 360px);
+	width: 100%;
+	height: calc(100vh - 200px);
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 20px;
@@ -69,4 +68,10 @@ a {
     background-color: #848;
     color: #000;
     font-size: 20px;
+}
+@media only screen and (min-width: 1024px) {
+  /* For desktop: */
+  .items {
+  	width: 400px;
+  }
 }
