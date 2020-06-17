@@ -7,5 +7,9 @@ function to_page_l(page1, page2) {
 	$(page2).animate({left: "0%"}, 600);
 }
 function close1() {
-	window.open();
+	var judge = confirm("此動作將清空所有localStorage\r確定清除嗎?");
+	if (judge === true) {
+		localStorage.clear();
+	}
+	
 }

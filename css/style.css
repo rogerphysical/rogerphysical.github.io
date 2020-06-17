@@ -154,6 +154,7 @@ a {
 	height: 70px;
 	border-radius: 10px;
 	background-color: #F00;
+	cursor: pointer;
 	opacity: 0;
 	z-index: 5;
 }
