@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="images/unknown_radius.ico">
+		<title>Rogerphysical的主目錄</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div id="title" class="title">部落格(實驗室)</div>
+		<div class="title2">坴奉Roger 創</div>
+		<div class="items">
+
+			<div id="page25" class="page">
+				<div class="item" onclick="to_page_l('#page25', '#page24'), tips('')">
+					<div class="item_l arrow_l">&nabla;</div>
+					<div class="item_r">也不一定有用</div>
+				</div>
+				<div class="item" onclick="tips('Tips:(l(lr)^2)^2r')">Tips</div>
+				<div class="img_com">
+					<div id="img_com1"></div>
+				</div>
+			</div>
+			<div id="page24" class="page">
+				<div class="item" onclick="to_page_l('#page24', '#page23')">
+					<div class="item_l arrow_l">&nabla;</div>
+					<div class="item_r">見到了</div>
+				</div>
+				<div class="item" onclick="to_page('#page24', '#page25')">
+					<div class="item_l">也不一定有用</div>
+					<div class="item_r arrow_r">&nabla;</div>
+				</div>
+				<div class="img_com">
+					<div id="img_com2"></div>
+				</div>
+			</div>
+			<div id="page23" class="page">
+				<div class="item" onclick="to_page_l('#page23', '#page22')">
+					<div class="item_l arrow_l">&nabla;</div>
+					<div class="item_r">&nbsp;</div>
+				</div>
+				<div class="item" onclick="to_page('#page23', '#page24')">
+					<div class="item_l">見到了</div>
+					<div class="item_r arrow_r">&nabla;</div>
+				</div>
+				<div class="img_com">
+					<div id="img_com5"></div>
+				</div>
+			</div>
+			<div id="page22" class="page">
+				<div class="item" onclick="to_page_l('#page22', '#page21')">
+					<div class="item_l arrow_l">&nabla;</div>
+					<div class="item_r">看不見</div>
+				</div>
+				<div class="item" onclick="to_page('#page22', '#page23')">
+					<div class="item_l">&nbsp;</div>
+					<div class="item_r arrow_r">&nabla;</div>
+				</div>
+				<div class="img_com">
+					<div id="img_com3"></div>
+				</div>
+			</div>
+			<div id="page21" class="page">
+				<div class="item" onclick="to_page_l('#page21', '#page2')">
+					<div class="item_l arrow_l">&nabla;</div>
+					<div class="item_r">看得見</div>
+				</div>
+				<div class="item" onclick="to_page('#page21', '#page22')">
+					<div class="item_l">看不見</div>
+					<div class="item_r arrow_r">&nabla;</div>
+				</div>
+				<div class="img_com">
+					<div id="img_com4"></div>
+				</div>
+			</div>
+			<div id="page2" class="page">
+				<div class="item" onclick="to_page_l('#page2', '#page')">
+					<div class="item_l arrow_l">&nabla;</div>
+					<div class="item_r">總電源</div>
+				</div>
+				<div class="item" onclick="to_page('#page2', '#page21')">
+					<div class="item_l">看得見</div>
+					<div class="item_r arrow_r">&nabla;</div>
+				</div>
+				<div class="img_com">
+					<div id="img_com6" onclick="close1()"></div>
+				</div>
+			</div>
+
+			<div id="page" class="page">
+				<a href="roger_blogger/index.html" target="_blank">
+					<div class="item">首頁(正門)</div>
+				</a>
+
+				<!-- <a href="roger_blogger/index.html" target="_blank">
+					<div class="item">內頁(側門)</div>
+				</a> -->
+
+				<a href="roger_blogger/index0.html" target="_blank">
+					<div class="item">尾頁(後門)</div>
+				</a>
+
+				<!-- <a href="roger_blogger/index.html" target="_blank">
+					<div class="item">首頁(窗口)</div>
+				</a> -->
+
+				<!-- <a href="roger_blogger/index.html" target="_blank">
+					<div class="item">隱藏頁(隱藏門)</div>
+				</a> -->
+
+				<div class="item" onclick="to_page('#page', '#page2')">
+					<div class="item_l">總電源</div>
+					<div class="item_r arrow_r">&nabla;</div>
+				</div>
+			</div>
+
+		</div>
+		<div id="tips" class="title2" style="color: #F00;"></div>
+		<div class="footer">
+			Copyright &copy; 2020 坴奉Roger
+		</div>
+	</body>
+</html>
