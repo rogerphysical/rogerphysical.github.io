@@ -13,6 +13,6 @@ function close1() {
 	}
 	
 }
-function tips(str) {
-	document.getElementById('tips').innerHTML = str;
+function tips(id, str) {
+	document.getElementById(id).innerHTML = str;
 }
