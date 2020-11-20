@@ -16,3 +16,8 @@ function close1() {
 function tips(id, str) {
 	document.getElementById(id).innerHTML = str;
 }
+
+function show_copyright() {
+	$('#footer_cover').animate({left: '100%'}, 600);
+	setTimeout("$('#footer_cover').animate({left: '0%'}, 600)", 1600);
+}
