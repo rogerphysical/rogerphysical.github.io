@@ -51,7 +51,7 @@ a {
 	left: 0%;
 	z-index: 44;
 }
-.item, #footer_floor {
+.item, #footer_floor, #footer_cover {
 	float: left;
 	width: 100%;
 	margin: 4px;
@@ -59,7 +59,7 @@ a {
 	padding: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-size: 28px;
+	font-size: 24px;
 	
 }
 .item:hover, #footer_cover:hover {
@@ -87,19 +87,12 @@ a {
 	position: absolute;
 	left: 0%;
 	top: 0%;
-	width: 100%;
-
-	border-radius: 10px;
-	padding: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size: 28px;
 	
 	background-color: #FD6;
 }
 #footer {
 	text-align: center;
-	font-size: 20px;
+	font-size: 24px;
 	color: #404;
 }
 /*@media only screen and (min-width: 500px) {
