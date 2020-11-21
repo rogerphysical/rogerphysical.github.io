@@ -51,7 +51,7 @@ a {
 	left: 0%;
 	z-index: 44;
 }
-.item, #footer_floor, #footer_cover {
+.item {
 	float: left;
 	width: 100%;
 	margin: 4px;
@@ -62,7 +62,7 @@ a {
 	font-size: 24px;
 	
 }
-.item:hover, #footer_cover:hover {
+.item:hover {
 	cursor: pointer;
 	box-shadow: 2px 2px 2px 1px;
 	background-color: #FF8;
@@ -80,20 +80,20 @@ a {
 .arrow_l {
 	transform: rotate(90deg);
 }
-#footer_floor {
-	position: relative;
-}
-#footer_cover {
-	position: absolute;
-	left: 0%;
-	top: 0%;
-	
-	background-color: #FD6;
-}
+
 #footer {
+	position: absolute;
+	top: -5px;
+	left: calc(-100% - 10px);
+
+	width: calc(100% + 10px);
+	min-height: calc(100% + 10px);
+
+	padding-top: 15px;
 	text-align: center;
 	font-size: 24px;
 	color: #404;
+	background-color: #FD6;
 }
 /*@media only screen and (min-width: 500px) {
 	.items {width: 400px;}
