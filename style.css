@@ -51,7 +51,7 @@ a {
 	left: 0%;
 	z-index: 44;
 }
-.item {
+.item, .item_center {
 	float: left;
 	width: 100%;
 	margin: 4px;
@@ -68,6 +68,9 @@ a {
 	background-color: #FF8;
 }
 
+.item_center {
+	text-align: center;
+}
 .item_l {
 	float: left;
 }
