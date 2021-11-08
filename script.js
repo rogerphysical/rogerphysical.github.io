@@ -18,7 +18,7 @@ function tips(id, str) {
 }
 
 function show_copyright() {
-	$('#footer').animate({left: -5}, 600);
-	var new_left = -1*$('#footer').width();
+	$('#footer').animate({left: -24}, 600);
+	var new_left = -1*$('#footer').width()-24;
 	setTimeout("$('#footer').animate({left: "+new_left+"}, 600)", 1600);
 }
