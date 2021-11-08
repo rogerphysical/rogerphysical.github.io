@@ -90,6 +90,7 @@ a {
 	left: calc(-100% - 72px);
 	width: calc(100% + 48px);
 
+	padding: 0px;
 	text-align: center;
 	font-size: 24px;
 	color: #404;
